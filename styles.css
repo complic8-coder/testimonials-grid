@@ -38,7 +38,7 @@ p {
 }
 
 .testimonial {
-    padding: 1.5rem 2rem 2rem 1.8rem;
+    padding: 1.5rem 2.18rem 2rem 1.8rem;
     color: var(--white);
     border-radius: 8px;
 }
@@ -141,6 +141,10 @@ p {
     background: var(--white);
     grid-column: 4;
     grid-row: 1 / 3;
+}
+
+.testimonial--whittle {
+    padding-right: 1.7rem;
 }
 
 @media (max-width: 1000px) {
