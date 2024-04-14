@@ -38,7 +38,7 @@ p {
 }
 
 .testimonial {
-    padding: 1.5rem 1.8rem 2rem;
+    padding: 1.5rem 2rem 2rem 1.8rem;
     color: var(--white);
     border-radius: 8px;
 }
@@ -112,6 +112,11 @@ p {
 .testimonial--abrams .text__header,
 .testimonial--whittle .text__header {
     margin-bottom: 24px;
+}
+
+.testimonial--harmon,
+.testimonial--whittle {
+    box-shadow: 24px 30px 30px -30px hsl(219, 29%, 14%, 0.3);
 }
 
 .testimonial--harmon {
